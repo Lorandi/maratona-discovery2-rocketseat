@@ -6,11 +6,7 @@ module.exports = {
 
         const data = await db.get(`SELECT * FROM profile`) //o "*" significa todos os campos da tabela 
 
-        await db.close()
-
-       
-
-        
+        await db.close()        
 
         return  {
             name: data.name,

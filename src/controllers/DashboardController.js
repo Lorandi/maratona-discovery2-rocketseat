@@ -30,7 +30,7 @@ module.exports = {
                 ...job,
                 remaining,
                 status,
-                budget: JobUtils.calculateBudget(job, profile["value-hour"])
+                budget: JobUtils.calculateBudget(job, profile["value-hour"]),                
             };
         });
 
